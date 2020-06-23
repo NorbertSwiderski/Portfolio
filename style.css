@@ -1,5 +1,35 @@
-/* .jumbotron{
-    background-image: url(/img/abstraction-3183052_1280.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-} */
+* {
+    font-family: 'Roboto Mono', monospace;
+    box-sizing: border-box;
+}
+.navigation{
+    background-color: black;
+}
+.navigation_list{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-size: 24px;
+    padding: 15px 5px;
+    text-transform: uppercase;
+    margin: 0;
+}
+.navigation_link{
+    color: white;
+    margin-right: 20px;
+}
+.header_slogan{
+    height: 80vh;
+    text-transform: uppercase;
+    background-color:#242423;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 3%;
+}
+.header_spanColor{
+    font-size: 26px;
+    color: orangered;
+}
