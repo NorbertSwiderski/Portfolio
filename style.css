@@ -77,6 +77,14 @@ html{
     border-radius: 50%;
     margin-bottom: 20px;
 }
+.about_paragraphs{
+    font-size: 17px;
+    
+}
+.about_paraColour{
+    color: crimson;
+    font-size: 22px;
+}
 .about_span{
     margin-left: 10px;
 }
