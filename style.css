@@ -116,3 +116,47 @@ html{
     text-align: justify;
     padding: 0;
 }
+.skills{
+    background-color:rgb(243, 237, 237);
+}
+
+.skills_htmlOn{
+    color:#D7502B;
+    font-size: 25px;
+}
+.skills_htmlOff{
+    color: #808080;
+    font-size: 25px;
+}
+.skills_cssOn{
+    color:#292cf8;
+    font-size: 25px;
+}
+.skills_cssOff{
+    color: #808080;
+    font-size: 25px;
+}
+.skills_jsOn{
+    color: #D8A035;
+    font-size: 25px;
+}
+.skills_jsOff{
+    color: #808080;
+    font-size: 25px;
+}
+.skills_gitOn{
+    color:black;
+    font-size: 25px;
+}
+.skills_gitOff{
+    color:#808080;
+    font-size: 25px;
+}
+.skills_bootstrapOn{
+    color:#4A366C;
+    font-size: 25px;
+}
+.skills_bootstrapOff{
+    color:#808080;
+    font-size: 25px;
+}
