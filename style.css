@@ -156,13 +156,24 @@ html{
 .skills_cssImage{
     margin-left: 40px;
 }
+.skills_jsIcon{
+    max-width: 100px;
+    max-height: 128px;
+    height: 100%;
+}
 .skills_jsOn{
-    color: #D8A035;
+    color: #FFD800;
     font-size: 25px;
 }
 .skills_jsOff{
     color: #808080;
     font-size: 25px;
+}
+.skills_git{
+    margin-top: 36px;
+}
+.skills_gitImage{
+    padding-top: 30px;
 }
 .skills_gitOn{
     color:black;
@@ -179,9 +190,6 @@ html{
 .skills_bootstrapOff{
     color:#808080;
     font-size: 25px;
-}
-.skills_marginBootstrap{
-    margin-top: 27px;
 }
 .skills_container{
     display: grid;
