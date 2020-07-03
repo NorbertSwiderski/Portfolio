@@ -25,22 +25,27 @@
 </head>
 
 <body>
-    <nav class="navigation text-right">
-        <ul class="navigation_list">
-            <li class="navigation-item">
-                <a class="navigation_link" href="#about">O mnie</a>
-            </li>
-            <li class="navigation-item">
-                <a class="navigation_link" href="#skills">Umiejętności</a>
-            </li>
-            <li class="navigation-item">
-                <a class="navigation_link" href="#portfolio">Portfolio</a>
-            </li>
-            <li class="navigation-item">
-                <a class="navigation_link" href="#contact">Kontakt</a>
-            </li>
-        </ul>
-    </nav>
+    <div id="topButton" class="navigation_container">
+        <nav class="navigation navigation-js text-right">
+            <ul class="navigation_list">
+                <li class="navigation-item">
+                    <a class="navigation_link" href="#about">O mnie</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="navigation_link" href="#skills">Umiejętności</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="navigation_link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="navigation_link" href="#contact">Kontakt</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="hamburger_container">
+            <button class="hamburger hamburger--js">🎨</button>
+        </div>
+    </div>
     <header class="header_slogan text-center">
         <h1>Norbert Świderski</h1>
         <p class="header_paragraph">Junior <span class="header_spanColor">Front End - Developer</span>
@@ -97,7 +102,7 @@
                         <i class="fa fa-check-square" aria-hidden="true"></i>
                         <i class="fa fa-check-square" aria-hidden="true"></i>
                     </span>
-                    <span class="skills_htmlOff">                    
+                    <span class="skills_htmlOff">
                         <i class="fa fa-check-square" aria-hidden="true"></i>
                     </span>
                 </section>
@@ -184,7 +189,11 @@
         </button>
     </section>
 
-
+    <button class="backToTop">
+        <a href="#topButton">
+            <i class="fa fa-chevron-circle-up" style="font-size: 40px;"></i>
+        </a>
+    </button>
 
 
 
