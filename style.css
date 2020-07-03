@@ -87,6 +87,9 @@ html {
     font-size: 17px;
     padding: 10px;
 }
+.about_paragraphs_open{
+    display: none;
+}
 
 .about_paraColour {
     color: crimson;
@@ -307,8 +310,11 @@ html {
     .hamburger {
         display: block;
         position: absolute;
-        top: 16px;
-        right: 16px;
+        top: 26px;
+        right: 27px;
+        background: transparent;
+        border: none;
+        color: white;
     }
     .navigation {
         display: none;
